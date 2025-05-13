@@ -17,7 +17,7 @@ const Gallery = () => {
   // Memoize the image loading function
   const loadImages = useCallback(async () => {
     try {
-      const imageContext = import.meta.glob('/src/assets/gallery/*.{jpg,jpeg,png}', { 
+      const imageContext = import.meta.glob('/src/assets/gallery/*-optimized.{jpg,jpeg,png}', { 
         eager: true,
         import: 'default'
       });
