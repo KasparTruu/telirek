@@ -1,7 +1,7 @@
 import React from 'react';
 import BlueButton from '../BlueButton';
 import * as motion from "motion/react-client";
-import HeaderImg from '../../assets/about-page-assets/received_1075846640045180.jpeg';
+import HeaderImg from '../../assets/gallery/received_1075846640045180-optimized.jpeg';
 
 const Header = () => {
     return (
