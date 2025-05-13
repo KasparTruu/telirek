@@ -1,13 +1,14 @@
 import React from 'react';
 import BlueButton from '../BlueButton';
 import * as motion from "motion/react-client";
+import backgroundImage from '../../assets/gallery/20230106_154638-optimized.jpg';
 
 const LandingPage = () => {
     return (
         <div className="relative w-full h-screen overflow-hidden">
             {/* Background Image */}
             <img
-                src="src/assets/gallery/20230106_154638.jpg" // <-- replace with your image path
+                src={backgroundImage}
                 alt="Background"
                 className="absolute inset-0 w-full h-full object-cover z-0"
             />
