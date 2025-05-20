@@ -1,8 +1,8 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll } from 'framer-motion';
-import experienceImg from '../../assets/gallery/IMG-759f81425f6deb80c33f40858076ab05-V-optimized.jpg';
-import needsImg from '../../assets/gallery/IMG-2752a7c64940a81998310301973a1ed1-V-optimized.jpg';
-import satisfactionImg from '../../assets/gallery/IMG-ba014fc8fade0ff4036c772895e5039b-V-optimized.jpg';
+import experienceImg from '../../assets/gallery/photo_001.jpg';
+import needsImg from '../../assets/gallery/photo_002.jpg';
+import satisfactionImg from '../../assets/gallery/photo_003.jpg';
 import materialsImg from '../../assets/gallery/received_1303031417250809-optimized.jpeg';
 
 const InformationSection = () => {
