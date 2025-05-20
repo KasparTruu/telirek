@@ -3,7 +3,7 @@ import { motion, useScroll } from 'framer-motion';
 import experienceImg from '../../assets/gallery/photo_001.jpg';
 import needsImg from '../../assets/gallery/photo_002.jpg';
 import satisfactionImg from '../../assets/gallery/photo_003.jpg';
-import materialsImg from '../../assets/gallery/received_1303031417250809-optimized.jpeg';
+import materialsImg from '../../assets/gallery/photo_035.jpg';
 
 const InformationSection = () => {
   const containerRef = useRef(null);
