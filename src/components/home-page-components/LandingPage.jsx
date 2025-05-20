@@ -1,7 +1,7 @@
 import React from 'react';
 import BlueButton from '../BlueButton';
 import * as motion from "motion/react-client";
-import backgroundImage from '../../assets/gallery/photo_034.jpg';
+import backgroundImage from '../../assets/gallery/photo_001-optimized.jpg';
 
 const LandingPage = () => {
     return (
